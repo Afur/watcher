@@ -14,6 +14,7 @@ export 'src/directory_watcher/polling.dart';
 export 'src/file_watcher.dart';
 export 'src/file_watcher/polling.dart';
 export 'src/watch_event.dart';
+export 'src/file_watcher/native.dart';
 
 abstract class Watcher {
   /// The path to the file or directory whose contents are being monitored.
